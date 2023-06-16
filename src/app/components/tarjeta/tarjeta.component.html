@@ -1,0 +1,13 @@
+<div class="card m-2 shadow" style="width: 18em;">
+  <div class="card-title p-2">
+    <h5>{{universidad.name}}</h5>
+  </div>
+  <div class="card-body">
+    <p>Pais: {{universidad.country}}</p>
+    <p>Código pais: {{universidad.alpha_two_code}}</p>
+    <a target="_blank" [href]="universidad.web_pages[0]">
+    <button>Web</button>
+    </a>
+  </div>
+</div>
+
